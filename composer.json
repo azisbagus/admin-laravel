@@ -1,0 +1,19 @@
+{
+    "name": "friparia/admin",
+    "description": "customized mvc to build admin easily",
+    "authors": [
+        {
+            "name": "friparia",
+            "email": "friparia@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/commands"
+        ],
+        "psr-4": {
+            "Friparia\\Admin\\": "src/Admin"
+        }
+    },
+    "minimum-stability": "dev"
+}
